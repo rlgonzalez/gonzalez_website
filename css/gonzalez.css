@@ -1,19 +1,32 @@
 body {
     padding-top: 30px;
     padding-bottom: 30px;
-
 }
 
 h1 {
-	text-align: center;
   padding-top: 20px;
-  padding-bottom: 20px;
 }
 
 p {
     /*padding: 40px 15px;*/
-    padding-top: 30px;
+    padding-top: 5px;
     padding-bottom: 5px;
+}
+
+img.hm-no-resize {
+  max-height: 115px;
+
+  max-width: 218px;
+}
+
+.image-caption {
+  padding-top: 15px;
+}
+
+.image-title {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
 }
 
 .page-content {
@@ -70,5 +83,11 @@ p {
   .sponsor {
     padding: 10px;
   }
+
+  .lab-address {
+    text-align: center;
+  
+  }
+
 }
 
