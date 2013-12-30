@@ -57,9 +57,11 @@ img.hm-no-resize {
   vertical-align: center;
 }
 
-.portrait {
-  width: 94px;
-  height: 120px;
+img.lab-member {
+  width: 150px;
+  height: auto;
+  float:left;
+  padding-right: 20px;
 }
 
 @media screen and (max-width: 992px) {
@@ -88,6 +90,15 @@ img.hm-no-resize {
     text-align: center;
   
   }
+
+  img.lab-member {
+  float: none;
+  display: block;
+  padding-bottom: 10px;
+  /*margin-left: auto;
+  margin-right: auto;*/
+
+}
 
 }
 
