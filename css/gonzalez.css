@@ -57,6 +57,46 @@ img.hm-no-resize {
   vertical-align: center;
 }
 
+div.lab-member {
+  clear: both;
+  padding: 10px 0px;
+}
+
+div.people-category {
+  clear: both;
+  padding-bottom: 25px;
+}
+
+.member-sidebar {
+  text-shadow: 0 1px 0 #fff;
+  background-color: #f7f5fa;
+  border-radius: 5px;
+
+}
+
+.member-sidebar a {
+  color: #444;
+}
+
+.member-sidebar.affix {
+  position: static;
+}
+
+@media (min-width: 992px) {
+  .member-sidebar.affix {
+  position: fixed;
+  }
+}
+
+.anchor {
+  display: block;
+  height: 51px; 
+  margin-top: -51px; 
+  visibility: hidden;
+}
+
+
+
 img.lab-member {
   width: 150px;
   height: auto;
@@ -70,9 +110,20 @@ img.pub-thumbnail {
   padding-right: 10px;
 }
 
-ul.publication-list li {
+ol.publication-list li {
   margin-top: 10px;
   margin-bottom: 10px;
+
+}
+
+.research-toc {
+  display: block;
+  width: 200px;
+  height: auto;
+  float: left;
+  padding: 20px;
+
+
 }
 
 @media screen and (max-width: 992px) {
@@ -95,11 +146,6 @@ ul.publication-list li {
 
   .sponsor {
     padding: 10px;
-  }
-
-  .lab-address {
-    text-align: center;
-  
   }
 
   img.lab-member {
