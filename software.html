@@ -34,7 +34,6 @@
               <li><a href="./positions.html">Positions</a></li>
               <li><a href="./publications.html">Publications</a></li>
               <li class="active"><a href="#">Software</a></li>
-              <li><a href="./calendar.html">Calendar</a></li>
             </ul>
           </div><!--/.nav-collapse -->
         </div>
@@ -43,10 +42,19 @@
 
     <div class="page-content">
       <div class="container">
-        <h1 class="text-center">vbFRET Software</h1>
-        <p><a href="http://vbfret.sourceforge.net/">vbFRET</a> is software for identifying states in and inferring idealized trajectories from single-molecule FRET versus time trajectories as described in <em>Learning rates and states from biophysical time series: A Bayesian approach to model selection and single-molecule FRET data</em>.</p>
+        <h1 class="text-center">Software</h1>
 
-        <p><a href="http://vbfret.sourceforge.net/">vbFRET</a> is implemented in MATLAB and is available for download <a href="http://vbfret.sourceforge.net/">here</a>.<p>
+        <h2>vbFRET</h2>
+        <p>
+          <a href="http://vbfret.sourceforge.net/">vbFRET</a> uses variational Bayesian inference to learn hidden Markov models from individual, single-molecule fluorescence resonance energy transfer efficiency (EFRET) versus time trajectories as described in Bronson et al (2009) and Bronson et al (2010). The software is implemented in MATLAB and can be downloaded <a href="http://vbfret.sourceforge.net/">here</a>.
+          <img class="img-responsive" src="img/vbfret.png">
+        </p>
+
+        <h2>ebFRET</h2>
+        <p>
+          <a href="http://ebfret.github.io/">ebFRET</a> uses empirical Bayesian inference to learn a single, consensus hidden Markov model from a large population of single-molecule fluorescence resonance energy transfer efficiency (EFRET) versus time trajectories as described in van de Meent et al (2013) and van de Meent et al (2014). The software is implemented in MATLAB and can be downloaded <a href="http://ebfret.github.io/">here</a>.
+          <img class="img-responsive" src="img/ebfret.png">
+        </p>
       </div>
     </div>
 
