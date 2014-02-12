@@ -19,6 +19,10 @@ img.hm-no-resize {
   max-width: 218px;
 }
 
+.img-software {
+  margin-top: 20px;
+}
+
 .image-caption {
   padding-top: 15px;
 }
@@ -110,10 +114,15 @@ img.pub-thumbnail {
   padding-right: 10px;
 }
 
-ol.publication-list li {
-  margin-top: 10px;
-  margin-bottom: 10px;
+ul.publication-list li {
+  margin-top: 20px;
+  margin-bottom: 20px;
 
+}
+
+ul.subitem li{
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
 
 .research-toc {
