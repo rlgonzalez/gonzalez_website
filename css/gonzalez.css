@@ -19,6 +19,10 @@ img.hm-no-resize {
   max-width: 218px;
 }
 
+.clear {
+  clear: both;
+}
+
 .img-software {
   margin-top: 20px;
 }
@@ -135,6 +139,13 @@ ul.subitem li{
 
 }
 
+img.research-image {
+  float: right;
+  max-height: 250px;
+  max-width: 588px;
+  width: auto;
+}
+
 @media screen and (max-width: 430px) {
   img.lab-member {
     float: none;
@@ -149,6 +160,12 @@ ul.subitem li{
 @media screen and (max-width: 992px) {
   body {
     padding-top: 85px;
+  }
+
+  img.research-image {
+    float: none;
+    max-height: 250px;
+    width: auto;
   }
 }
 
@@ -167,6 +184,8 @@ ul.subitem li{
   .sponsor {
     padding: 10px;
   }
+
+
 
 }
 
