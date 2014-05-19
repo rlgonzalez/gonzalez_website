@@ -8,7 +8,6 @@ h1 {
 }
 
 p {
-    /*padding: 40px 15px;*/
     padding-top: 5px;
     padding-bottom: 5px;
 }
@@ -27,7 +26,6 @@ img.hm-no-resize {
   margin-top: 20px;
   margin-left: auto;
   margin-right: auto;
-  /*max-width: 70%;*/
 }
 
 .image-caption {
@@ -48,9 +46,9 @@ img.hm-no-resize {
 .sponsor {
 	max-width: 100px;
 	max-height: 100px;
-  vertical-align: center;
-  margin-right: auto;
-  margin-left: auto;
+    vertical-align: center;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 .sponsor-grid {
@@ -179,7 +177,5 @@ img.research-image {
   .sponsor {
     padding: 10px;
   }
-
-
 
 }

@@ -1,841 +1,614 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>Gonzalez Lab at Columbia</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Bootstrap -->
-    <link rel="stylesheet" href="http://getbootstrap.com/dist/css/bootstrap.css"> 
-    <link href="css/gonzalez.css" rel="stylesheet">
-    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
-      <script src="../../assets/js/html5shiv.js"></script>
-      <script src="../../assets/js/respond.min.js"></script>
-    <![endif]-->
-  </head>
+    <head>
+        <title>Gonzalez Lab at Columbia</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Bootstrap -->
+        <link rel="stylesheet" href="css/bootstrap.min.css"> 
+        <link rel="stylesheet" href="css/gonzalez.css">
+    </head>
 
-  <body>
-
-    <div class="masthead">
-      <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-        <div class="container">
-          <div class="navbar-header">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-              <span class="sr-only">Toggle navigation</span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand" href="./index.html">The Gonzalez Laboratory</a>
-          </div>
-          <div class="collapse navbar-collapse">
-            <ul class="nav navbar-nav">
-              <li><a href="./index.html">Home</a></li>
-              <li><a href="./research.html">Research</a></li>
-              <li class="active"><a href="#">People</a></li>
-              <li><a href="./positions.html">Positions</a></li>
-              <li><a href="./publications.html">Publications</a></li>
-              <li><a href="./software.html">Software</a></li>
-            </ul>
-          </div><!--/.nav-collapse -->
+    <body>
+        <!-- DO NOT MODIFY ANYTHING IN THIS DIV -->
+        <div class="masthead">
+            <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+                <div class="container">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a class="navbar-brand" href="./index.html">The Gonzalez Laboratory</a>
+                    </div>
+                    <div class="collapse navbar-collapse">
+                        <ul class="nav navbar-nav">
+                            <li><a href="./index.html">Home</a></li>
+                            <li><a href="./research.html">Research</a></li>
+                            <li class="active"><a href="#">People</a></li>
+                            <li><a href="./positions.html">Positions</a></li>
+                            <li><a href="./publications.html">Publications</a></li>
+                            <li><a href="./software.html">Software</a></li>
+                        </ul>
+                    </div><!--/.nav-collapse -->
+                </div>
+            </div>
         </div>
-      </div>
-    </div>
 
-    <div class="page-content">
-      <div class="container">
-        <h1 class="image-title"> Gonzalez Group 2014 </h1>
+        <div class="page-content">
+            <div class="container">
+                <h1 class="image-title"> Gonzalez Group 2014 </h1>
 
-        <div class="row">
-          <div class="col-md-3"><!--Sidebar-->
-            <div class="member-sidebar affix" role="complementary">
-              <ul class="nav people-toc">
-                <li>
-                  <a href="#ruben" class="smoothScroll">Ruben Gonzalez</a>
-                </li>
-                <li>
-                  <a href="#postdoc" class="smoothScroll">Postdoctoral Researchers</a>
-                </li>
-                <li>
-                  <a href="#grad" class="smoothScroll">Graduate Students</a>
-                </li>
-                <li>
-                  <a href="#undergrad" class="smoothScroll">Undergraduate Students</a>
-                </li>
-                <li>
-                  <a href="#alumni" class="smoothScroll">Alumni</a>
-                </li>
-              </ul>
+                <div class="row">
+                    <div class="col-md-3"><!--Sidebar-->
+                        <div class="member-sidebar affix" role="complementary">
+                            <ul class="nav people-toc">
+                                <li>
+                                  <a href="#ruben" class="smoothScroll">Ruben Gonzalez</a>
+                                </li>
+                                <li>
+                                  <a href="#postdoc" class="smoothScroll">Postdoctoral Researchers</a>
+                                </li>
+                                <li>
+                                  <a href="#grad" class="smoothScroll">Graduate Students</a>
+                                </li>
+                                <li>
+                                  <a href="#undergrad" class="smoothScroll">Undergraduate Students</a>
+                                </li>
+                                <li>
+                                  <a href="#web" class="smoothScroll">Web Developer</a>
+                                </li>
+                                <li>
+                                  <a href="#alumni" class="smoothScroll">Alumni</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="col-md-9" role="main">
+                        <h2> Current Members</h2>
+                        <span class="anchor" id="ruben"></span>
+                        <div class="people-category">
+                            <h3> Principal Investigator </h3>
+                            <ul class="list-unstyled">
+                                <li>
+                                <div class="lab-member">
+                                    <img class="lab-member" src="img/gonzalez.jpg"/>
+                                    <br class="hidden-xs"/>
+                                    <address>
+                                        <strong>Prof. Ruben Gonzalez</strong><br/>
+                                        Email: <a href="mailto:rlg2118@columbia.edu">rlg2118@columbia.edu</a><br>
+                                        Phone: 1.212.854.1096<br/>
+                                        <button class="btn btn-link" data-toggle="modal" data-target="#rubenBio">[BIO]</button><a href="#">[CV]</a><br/><a href="#">[NIH Biosketch]</a>
+                                    </address>
+                                  
+                                    <div class="modal fade" id="rubenBio" tabindex="-1" role="dialog" aria-labelledby="rubenBio" aria-hidden="true">
+                                        <div class="modal-dialog">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                                                    <h4 class="modal-title" id="myModalLabel">Ruben Gonzalez - Professional Bio</h4>
+                                                </div>
+                                                <div class="modal-body">
+                                                    <p>
+                                                      Ruben Gonzalez graduated cum laude from <a href="http://fiu.edu/" target="_blank">Florida International University (FIU)</a> with a B.S. in Chemistry and Biochemistry in 1995. While at FIU, Ruben did undergraduate research with Prof. Stephen Winkle in the <a href="http://chemistry.fiu.edu/" target="_blank">Department of Chemistry and Biochemistry</a>, where he investigated the thermodynamics and kinetics of protein and carcinogen binding to unusual DNA structures. Notably, Ruben's research in Prof. Winkle's laboratory demonstrated that RNA polymerases could specifically recognize unusual DNA structures formed at the junction of B- and Z-form DNA.
+                                                    </p>
+
+                                                    <p>
+                                                      Ruben next moved to the <a href="http://chem.berkeley.edu/" target="_blank">Department of Chemistry</a> at the <a href="http://berkeley.edu/" target="_blank">University of California, Berkeley</a> to do his doctoral research with <a href="http://www.cchem.berkeley.edu/intgrp/Research.htm" target="_blank">Prof. Ignacio Tinoco</a>. While in Prof. Tinoco's laboratory, Ruben's research interests focused on the structure and thermodynamics of a specific RNA structure, known as an RNA pseudoknot, which is involved in the translational control of gene expression in many viruses. In particular, Ruben was interested in how specific binding of divalent metal ions stabilize RNA pseudoknot structures. As part of his research in Prof. Tinoco's laboratory, Ruben helped develop now widely-used methodology for using cobalt (III) hexammine as a mimic of magnesium (II) hexahydrate in order to determine the solution structure of a divalent metal ion binding site in an RNA pseudoknot  using nuclear magnetic resonance spectroscopy.
+                                                    </p>
+
+                                                    <p>
+                                                      Upon obtaining his Ph.D. in Chemistry in 2000, Ruben moved to <a href="http://www.stanford.edu/" target="_blank">Stanford University</a> where he did postdoctoral research as an <a href="http://www.cancer.org/index" target="_blank">American Cancer Society </a> <a href="http://www.cancer.org/research/researchprogramsfunding/postdoctoral-fellowships" target="_blank">Postdoctoral Fellow </a>in the laboratories of <a href="http://puglisi.stanford.edu/" target="_blank">Prof. Joseph D. Puglisi</a> in the <a href="http://structuralbio.stanford.edu/" target="_blank">Department of Structural Biology</a> and <a href="http://energy.gov/contributors/dr-steven-chu" target="_blank">Prof. Steven Chu </a>in the <a href="https://physics.stanford.edu/" target="_blank">Department of Physics </a> and <a href="http://www.stanford.edu/dept/app-physics/cgi-bin/" target="_blank">Applied Physics</a>. While at Stanford, Ruben helped integrate expertise from Profs. Puglisi's and Chu's laboratories in order to pioneer the first single-molecule fluorescence investigations of the ribosome, the universally-conserved RNA-based molecular machine responsible for protein synthesis in all living cells.
+                                                    </p>
+
+                                                    <p>
+                                                      Ruben joined the <a href="http://www.columbia.edu/cu/chemistry/" target="_blank">Department of Chemistry</a> at <a href="http://www.columbia.edu/" target="_blank">Columbia University</a> as an Assistant Professor in 2006. Research in his laboratory focuses on the biophysical chemistry and biochemistry of Nature's RNA-based molecular machines, with a current emphasis on the mechanism and regulation of protein synthesis by the ribosome. Research in Ruben's laboratory has been recognized with numerous awards, including a <a href="http://www.bwfund.org/" target="_blank">Burroughs Wellcome Fund </a> <a href="http://www.bwfund.org/grant-programs/biomedical-sciences/previous-programs/career-awards-biomedical-sciences" target="_blank">Career Award in the Biomedical Sciences</a>, a <a href="http://www.nsf.gov/" target="_blank">National Science Foundation</a> <a href="http://www.nsf.gov/funding/pgm_summ.jsp?pims_id=503214" target="_blank">CAREER Award</a>, an <a href="http://www.cancer.org/index" target="_blank">American Cancer Society</a> <a href="http://www.cancer.org/docroot/RES/content/RES_5_2x_Research_Scholar_Grants_for_Beginning_Investigators.asp?sitearea=RES" target="_blank">Research Scholar Award</a>, a Columbia University RISE Award, a <a href="http://www.columbia.edu/cu/vpas/about/recognition.html#4" target="_blank">Distinguished Columbia Faculty Award</a> and, most recently, a <a href="http://www.dreyfus.org/awards/camille_dreyfus_teacher_award.shtml" target="_blank">Camille Dreyfus Teacher-Scholar Award</a>.
+                                                    </p>
+                                                </div>
+                                                <div class="modal-footer"></div>
+                                            </div><!-- /.modal-content -->
+                                        </div><!-- /.modal-dialog -->
+                                    </div><!-- /.modal -->
+                                </div>
+                              </li>
+                            </ul>
+                        </div>
+
+                        <span class="anchor" id="postdoc"></span>
+                        <div class="people-category">
+                            <h3> Postdoctoral Research Scientist </h3>
+                            <ul class="list-unstyled">
+                                <li>
+                                  <div class="lab-member">
+                                      <img class="lab-member" src="img/docs/Jinrang.jpg"/>
+                                      <br class="hidden-xs"/>
+                                      <address>
+                                          <strong>Dr. Kim Jinrang</strong><br/><br/>
+                                          <strong><em>Ph.D. Biological Sciences</em></strong><br/>
+                                          <strong><em>Columbia University</em></strong><br/>
+                                          Email: <a href="mailto:jk2560@columbia.edu">jk2560@columbia.edu</a><br>
+                                          Phone: 1.212.854.0162<br/>
+                                      </address>
+                                  </div>
+                                </li>
+
+                                <li>
+                                  <div class="lab-member">
+                                      <img class="lab-member" src="img/docs/Kelvin.jpg"/>
+                                      <br class="hidden-xs"/>
+                                      <address>
+                                          <strong>Dr. Kelvin Caban</strong><br/><br/>
+                                          <strong><em>Ph.D. Molecular Genetics</em></strong><br/>
+                                          <strong><em>UMDNJ-Robert Wood Johnson Med. School</em></strong><br/>
+                                          Email: <a href="mailto:kc2703@columbia.edu ">kc2703@columbia.edu </a><br>
+                                          Phone: 1.212.854.0162<br/>
+                                      </address>
+                                  </div>
+                                </li>
+
+                                <li>
+                                  <div class="lab-member">
+                                      <img class="lab-member" src="img/docs/Dan.jpg"/>
+                                      <br class="hidden-xs"/>
+                                      <address>
+                                          <strong>Dr. Daniel MacDougall</strong><br/><br/>
+                                          <strong><em>Ph.D. Chemistry</em></strong><br/>
+                                          <strong><em>Columbia University</em></strong><br/>
+                                          Email: <a href="mailto:ddm2112@columbia.edu">ddm2112@columbia.edu</a><br>
+                                          Phone: 1.212.854.0162<br/>
+                                      </address>
+                                  </div>
+                                </li>
+
+                                <li>
+                                  <div class="lab-member">
+                                      <img class="lab-member" src="img/docs/Som.jpg"/>
+                                      <br class="hidden-xs"/>
+                                      <address>
+                                          <strong>Dr. Somdeb Mitra</strong><br/><br/>
+                                          <strong><em>Ph.D. Biochemistry</em></strong><br/>
+                                          <strong><em>Albert Einstein College of Medicine</em></strong><br/>
+                                          Email: <a href="mailto:sm3398@columbia.edu">sm3398@columbia.edu</a><br>
+                                          Phone: 1.212.854.0162<br/>
+                                      </address>
+                                  </div>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <span class="anchor" id="grad"></span>
+                        <div class="people-category">
+                            <h3> Graduate Students </h3>
+                            <ul class="list-unstyled">
+                              <li>
+                                <div class="lab-member">
+                                    <img class="lab-member" src="img/grads/David.jpg"/>
+                                    <br class="hidden-xs"/>
+                                    <address>
+                                        <strong>David Horstman</strong><br/><br/>
+                                        <strong><em>Department of Chemistry</em></strong><br/>
+                                        Email: <a href="mailto:ddh2127@columbia.edu">ddh2127@columbia.edu</a><br>
+                                        Phone: 1.212.854.0162<br/>
+                                    </address>
+                                </div>
+                              </li>
+
+                                <li>
+                                  <div class="lab-member">
+                                      <img class="lab-member" src="img/grads/Nevette.jpg"/>
+                                      <br class="hidden-xs"/>
+                                      <address>
+                                          <strong>Nevette Bailey</strong><br/><br/>
+                                          <strong><em>Department of Chemistry</em></strong><br/>
+                                          Email: <a href="mailto:nab2153@columbia.edu">nab2153@columbia.edu</a><br>
+                                          Phone: 1.212.854.0162<br/>
+                                      </address>
+                                  </div>
+                                </li>
+
+                                <li>
+                                  <div class="lab-member">
+                                      <img class="lab-member" src="img/placeholder2.jpg"/>
+                                      <br class="hidden-xs"/>
+                                      <address>
+                                          <strong>Jason Hon</strong><br/><br/>
+                                          <strong><em>Department of Chemistry</em></strong><br/>
+                                          Email: <a href="mailto:jhon0882@gmail.com">jhon0882@gmail.com</a><br>
+                                          Phone: 1.212.854.0162<br/>
+                                      </address>
+                                  </div>
+                                </li>
+
+                                <li>
+                                  <div class="lab-member">
+                                      <img class="lab-member" src="img/grads/Nathan.jpg"/>
+                                      <br class="hidden-xs"/>
+                                      <address>
+                                          <strong>Nathan Daly</strong><br/><br/>
+                                          <strong><em>Department of Chemistry</em></strong><br/>
+                                          Email: <a href="mailto:nsd2122@columbia.edu">nsd2122@columbia.edu</a><br>
+                                          Phone: 1.212.854.0162<br/>
+                                      </address>
+                                  </div>
+                                </li>
+
+                                <li>
+                                  <div class="lab-member">
+                                      <img class="lab-member" src="img/placeholder1.jpg"/>
+                                      <br class="hidden-xs"/>
+                                      <address>
+                                          <strong>Bridget Huang</strong><br/><br/>
+                                          <strong><em>Biohemistry and Molecular Biophysics</em></strong><br/>
+                                          Email: <a href="mailto:byh2107@columbia.edu">byh2107@columbia.edu</a><br>
+                                          Phone: 1.212.854.0162<br/>
+                                      </address>
+                                  </div>
+                                </li>
+
+                                <li>
+                                  <div class="lab-member">
+                                      <img class="lab-member" src="img/placeholder2.jpg"/>
+                                      <br class="hidden-xs"/>
+                                      <address>
+                                          <strong>Colin Kinz-Thompson</strong><br/><br/>
+                                          <strong><em>Department of Chemistry</em></strong><br/>
+                                          Email: <a href="mailto:cdk2119@columbia.edu">cdk2119@columbia.edu</a><br>
+                                          Phone: 1.212.854.0162<br/>
+                                      </address>
+                                  </div>
+                                </li>
+
+                                <li>
+                                  <div class="lab-member">
+                                      <img class="lab-member" src="img/grads/Bo.jpg"/>
+                                      <br class="hidden-xs"/>
+                                      <address>
+                                          <strong>Bo Chen</strong><br/>
+                                          <em>(Joint with Prof. Joachim Frank)</em><br/><br/>
+                                          <em><strong>Department of Biological Sciences</strong></em><br/>
+                                          Email: <a href="mailto:bc2357@columbia.edu ">bc2357@columbia.edu </a><br>
+                                          Phone: 1.212.854.0162<br/>
+                                      </address>
+                                  </div>
+                                </li>
+
+                                <li>
+                                  <div class="lab-member">
+                                      <img class="lab-member" src="img/placeholder1.jpg"/>
+                                      <br class="hidden-xs"/>
+                                      <address>
+                                          <strong>Rachel Fleisher</strong><br/><br/>
+                                          <strong><em>Department of Chemistry</em></strong><br/>
+                                          Email: <a href="mailto:rcf2101@columbia.edu">rcf2101@columbia.edu</a><br>
+                                          Phone: 1.212.854.0162<br/>
+                                      </address>
+                                  </div>
+                                </li>
+
+                                <li>
+                                  <div class="lab-member">
+                                      <img class="lab-member" src="img/grads/Wei.jpg"/>
+                                      <br class="hidden-xs"/>
+                                      <address>
+                                          <strong>Wei Ning</strong><br/><br/>
+                                          <strong><em>Department of Chemistry</em></strong><br/>
+                                          Email: <a href="mailto:wn2126@columbia.edu ">wn2126@columbia.edu </a><br>
+                                          Phone: 1.212.854.0162<br/>
+                                      </address>
+                                  </div>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <span class="anchor" id="undergrad"></span>
+                        <div class="people-category">
+                            <h3> Undergraduate Students </h3>
+                            <ul class="list-unstyled">
+                                <li>
+                                  <div class="lab-member">
+                                      <img class="lab-member" src="img/ugrads/Jordan.jpg"/>
+                                      <address>
+                                          <strong>Jordan McKittrick<br/><br/>
+                                          <em>Biochemistry</em></strong><br/>
+                                          Email: <a href="mailto:jhm2144@columbia.edu">jhm2144@columbia.edu </a><br>
+                                          Phone: 1.212.854.0162<br/>
+                                      </address>
+                                  </div>
+                                </li>
+                            </ul>
+                        </div>
+                      
+                        <span class="anchor" id="web"></span>
+                        <div class="people-category">
+                            <h3> Web Developer </h3>
+                            <ul class="list-unstyled">
+                                <li>
+                                  <div class="lab-member">
+                                      <img class="lab-member" src="img/placeholder2.jpg"/>
+                                      <br class="hidden-xs"/>
+                                      <address>
+                                          <br/>
+                                          <strong>Adam Chelminski</strong><br/><br/>
+                                          Email: <a href="mailto:apc2142@columbia.edu">apc2142@columbia.edu</a><br>
+                                      </address>
+                                  </div>
+                                </li>
+                            </ul>
+                        </div>
+      
+                        <span class="anchor" id="alumni"></span>
+                        <div class="people-category">
+                            <h2>Gonzalez Laboratory Alumni</h2>
+
+                            <table class="table">
+                                <thead>
+                                    <tr>
+                                        <th>Position</th>
+                                        <th>Name</th>
+                                        <th>Dates in Group</th>
+                                        <th>Contact Info</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td><strong>Postdoctoral Researchers</strong></td>
+                                        <td>Dileep Pulukkunat</td>
+                                        <td></td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <td></td>
+                                        <td>Jan-Willem van de Meent</td>
+                                        <td></td>
+                                        <td></td>
+                                    </tr>
+                                </tbody>
+                                <tbody>
+                                    <tr>
+                                        <td><strong>Graduate Students</strong></td>
+                                        <td>Margaret Elvekrog<br/></td>
+                                        <td>2007-2011</td>
+                                        <td><a href="mailto:melvekrog@gmail.com">melvekrog@gmail.com </a></td>
+                                    </tr>
+                                    <tr>
+                                        <td></td>
+                                        <td>Michael Englander<br/></td>
+                                        <td>2006-2011</td>
+                                        <td><a href="mailto:mte2002@columbia.edu">mte2002@columbia.edu</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td></td>
+                                        <td>Jingyi Fei</td>
+                                        <td>2006-2010</td>
+                                        <td><a href="mailto:jingyi.jf2276@gmail.com">jingyi.jf2276@gmail.com</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td></td>
+                                        <td>Victor Naumov</td>
+                                        <td></td>
+                                        <td><a href="mailto:mutantgene@gmail.com">mutantgene@gmail.com</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td></td>
+                                        <td>Jiangning Wang</td>
+                                        <td>2006-2010</td>
+                                        <td><a href="mailto:jiangning.wang@gmail.com">jiangning.wang@gmail.com</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td></td>
+                                        <td>Jonathan Bronson</td>
+                                        <td>2007-2010</td>
+                                        <td><a href="mailto:jonathan.bronson@gmail.com">jonathan.bronson@gmail.com</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td></td>
+                                        <td>Phillip Effraim</td>
+                                        <td>2006-2009</td>
+                                        <td></td>
+                                    </tr>  
+                                </tbody>
+                                <tbody>             
+                                    <tr>
+                                        <td><strong>Undergraduate Students</strong></td>
+                                        <td>Mia Kunitomo</td>
+                                        <td>Summer 2013</td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <td></td>
+                                        <td>Vincent Nguyen</td>
+                                        <td>Fall 2011</td>
+                                        <td></td>
+                                    </tr>    
+                                    <tr>
+                                        <td></td>
+                                        <td>Margaret Bermel</td>
+                                        <td>Summer 2011</td>
+                                        <td></td>
+                                    </tr>    
+                                    <tr>
+                                        <td></td>
+                                        <td>Madeleine Jensen</td>
+                                        <td>Summer 2011</td>
+                                        <td></td>
+                                    </tr>    
+                                    <tr>
+                                        <td></td>
+                                        <td>Esther Wolf</td>
+                                        <td>2009-2011</td>
+                                        <td></td>
+                                    </tr>    
+                                    <tr>
+                                        <td></td>
+                                        <td>Arianne Richard</td>
+                                        <td>2009-2010</td>
+                                        <td></td>
+                                    </tr>    
+                                    <tr>
+                                        <td></td>
+                                        <td>Noam Prywes</td>
+                                        <td>2007-2010</td>
+                                        <td></td>
+                                    </tr>    
+                                    <tr>
+                                        <td></td>
+                                        <td>Anthony Testa</td>
+                                        <td>2009</td>
+                                        <td></td>
+                                    </tr>    
+                                    <tr>
+                                        <td></td>
+                                        <td>Joseph Ho</td>
+                                        <td>2007-2009</td>
+                                        <td></td>
+                                    </tr>    
+                                    <tr>
+                                        <td></td>
+                                        <td>Rathi Srinivas</td>
+                                        <td>2006-2009</td>
+                                        <td></td>
+                                    </tr>    
+                                    <tr>
+                                        <td></td>
+                                        <td>Samuel Sternberg</td>
+                                        <td>2006-2009</td>
+                                        <td></td>
+                                    </tr>    
+                                    <tr>
+                                        <td></td>
+                                        <td>Ann Cheung</td>
+                                        <td>2006-2007</td>
+                                        <td></td>
+                                    </tr>    
+                                </tbody>
+                                <tbody>
+                                    <tr>
+                                        <td><strong>Rotation Students</strong></td>
+                                        <td>Noopur Khobrekar</td>
+                                        <td>Fall 2013</td>
+                                        <td><a href="mailto:nvk2104@columbia.edu">nvk2104@columbia.edu</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td></td>
+                                        <td>Nathaniel Jaffe</td>
+                                        <td>Fall 2013</td>
+                                        <td><a href="mailto:nmj2112@columbia.edu">nmj2112@columbia.edu</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td></td>
+                                        <td>Meagan Dufrisne</td>
+                                        <td>Summer 2013</td>
+                                        <td><a href="mailto:mlb2223@columbia.edu">mlb2223@columbia.edu</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td></td>
+                                        <td>Claudia Tenen</td>
+                                        <td>Summer 2013</td>
+                                        <td><a href="mailto:cct2128@columbia.edu">cct2128@columbia.edu</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td></td>
+                                        <td>Bridget Huang</td>
+                                        <td>Spring 2011</td>
+                                        <td><a href="mailto:byh2107@columbia.edu">byh2107@columbia.edu</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td></td>
+                                        <td>Scott Ugras</td>
+                                        <td>Summer 2010</td>
+                                        <td><a href="mailto:ugras@mail.med.penn.edu ">ugras@mail.med.penn.edu </a></td>
+                                    </tr>
+                                    <tr>
+                                        <td></td>
+                                        <td>Rachel Kolster</td>
+                                        <td>Spring 2009</td>
+                                        <td><a href="mailto:rak128@columbia.edu">rak128@columbia.edu</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td></td>
+                                        <td>Kelly McGrath</td>
+                                        <td>Summer 2008</td>
+                                        <td><a href="mailto:kam2203@columbia.edu">kam2203@columbia.edu</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td></td>
+                                        <td>Daphne Anastasiades</td>
+                                        <td>Spring 2007</td>
+                                        <td><a href="mailto:dca2106@columbia.edu">dca2106@columbia.edu</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td></td>
+                                        <td>Rohitha SriRamaratnam</td>
+                                        <td>Spring 2007</td>
+                                        <td><a href="mailto:rs2373@columbia.edu">rs2373@columbia.edu</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td></td>
+                                        <td>Pallav Kosuri</td>
+                                        <td>Spring 2007</td>
+                                        <td><a href="mailto:pk2232@columbia.edu">pk2232@columbia.edu</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td></td>
+                                        <td>Michael Englander</td>
+                                        <td>Summer 2006</td>
+                                        <td><a href="mailto:mte2002@columbia.edu">mte2002@columbia.edu</a></td>
+                                    </tr>
+                                </tbody>
+                                <tbody>
+                                  <tr>
+                                      <td><strong>High School Students</strong></td>
+                                      <td>Merilyn Varghese</td>
+                                      <td>2006-2007</td>
+                                      <td><a href="mailto:merilyn.varghese@gmail.com">merilyn.varghese@gmail.com</a></td>
+                                  </tr>
+                                </tbody>
+                                <tbody>
+                                  <tr>
+                                      <td><strong>Lab Technicians</strong></td>
+                                      <td>Amanda Olivo</td>
+                                      <td></td>
+                                      <td><a href="mailto:ako2012@gmail.com">ako2012@gmail.com</a></td>
+                                  </tr>
+                                  <tr>
+                                      <td></td>
+                                      <td>Corey Perez</td>
+                                      <td></td>
+                                      <td></td>
+                                  </tr>
+                                  <tr>
+                                      <td></td>
+                                      <td>Wendy Tse</td>
+                                      <td>2009</td>
+                                      <td><a href="mailto:wendy.y.tse@gmail.com">wendy.y.tse@gmail.com</a></td>
+                                  </tr>
+                                  <tr>
+                                      <td></td>
+                                      <td>Subahsree Das</td>
+                                      <td>2007-2009</td>
+                                      <td><a href="mailto:mail_subhasree@yahoo.com">mail_subhasree@yahoo.com</a></td>
+                                  </tr>
+                                  <tr>
+                                      <td></td>
+                                      <td>Benjamin Cahan</td>
+                                      <td>2006-2007</td>
+                                      <td><a href="mailto:bcahan@ucla.edu">bcahan@ucla.edu</a></td>
+                                  </tr>
+                              </tbody>
+                            </table>
+
+                        </div>
+                    </div>
+                </div>
             </div>
-          </div>
-
-          <div class="col-md-9" role="main">
-            <h2> Current Members</h2>
-            <span class="anchor" id="ruben"></span>
-            <div class="people-category">
-              <h3> Principal Investigator </h3>
-              <ul class="list-unstyled">
-                <li>
-                  <div class="lab-member">
-                    <img class="lab-member" src="img/gonzalez.jpg"/>
-                    <br class="hidden-xs"/>
-                    <address>
-                      <strong>Prof. Ruben Gonzalez</strong><br/>
-                      Email: <a href="mailto:rlg2118@columbia.edu">rlg2118@columbia.edu</a><br>
-                      Phone: 1.212.854.1096<br/>
-                      <button class="btn btn-link" data-toggle="modal" data-target="#rubenBio">[BIO]</button><a href="#">[CV]</a><br/><a href="#">[NIH Biosketch]</a>
-                    </address>
-                    <div class="modal fade" id="rubenBio" tabindex="-1" role="dialog" aria-labelledby="rubenBio" aria-hidden="true">
-                      <div class="modal-dialog">
-                        <div class="modal-content">
-                          <div class="modal-header">
-                            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                            <h4 class="modal-title" id="myModalLabel">Ruben Gonzalez - Professional Bio</h4>
-                          </div>
-                          <div class="modal-body">
-                            <p>
-                              Ruben Gonzalez graduated cum laude from <a href="http://fiu.edu/" target="_blank">Florida International University (FIU)</a> with a B.S. in Chemistry and Biochemistry in 1995. While at FIU, Ruben did undergraduate research with Prof. Stephen Winkle in the <a href="http://chemistry.fiu.edu/" target="_blank">Department of Chemistry and Biochemistry</a>, where he investigated the thermodynamics and kinetics of protein and carcinogen binding to unusual DNA structures. Notably, Ruben's research in Prof. Winkle's laboratory demonstrated that RNA polymerases could specifically recognize unusual DNA structures formed at the junction of B- and Z-form DNA.
-                            </p>
-
-                            <p>
-                              Ruben next moved to the <a href="http://chem.berkeley.edu/" target="_blank">Department of Chemistry</a> at the <a href="http://berkeley.edu/" target="_blank">University of California, Berkeley</a> to do his doctoral research with <a href="http://www.cchem.berkeley.edu/intgrp/Research.htm" target="_blank">Prof. Ignacio Tinoco</a>. While in Prof. Tinoco's laboratory, Ruben's research interests focused on the structure and thermodynamics of a specific RNA structure, known as an RNA pseudoknot, which is involved in the translational control of gene expression in many viruses. In particular, Ruben was interested in how specific binding of divalent metal ions stabilize RNA pseudoknot structures. As part of his research in Prof. Tinoco's laboratory, Ruben helped develop now widely-used methodology for using cobalt (III) hexammine as a mimic of magnesium (II) hexahydrate in order to determine the solution structure of a divalent metal ion binding site in an RNA pseudoknot  using nuclear magnetic resonance spectroscopy.
-                            </p>
-
-                            <p>
-                              Upon obtaining his Ph.D. in Chemistry in 2000, Ruben moved to <a href="http://www.stanford.edu/" target="_blank">Stanford University</a> where he did postdoctoral research as an <a href="http://www.cancer.org/index" target="_blank">American Cancer Society </a> <a href="http://www.cancer.org/research/researchprogramsfunding/postdoctoral-fellowships" target="_blank">Postdoctoral Fellow </a>in the laboratories of <a href="http://puglisi.stanford.edu/" target="_blank">Prof. Joseph D. Puglisi</a> in the <a href="http://structuralbio.stanford.edu/" target="_blank">Department of Structural Biology</a> and <a href="http://energy.gov/contributors/dr-steven-chu" target="_blank">Prof. Steven Chu </a>in the <a href="https://physics.stanford.edu/" target="_blank">Department of Physics </a> and <a href="http://www.stanford.edu/dept/app-physics/cgi-bin/" target="_blank">Applied Physics</a>. While at Stanford, Ruben helped integrate expertise from Profs. Puglisi's and Chu's laboratories in order to pioneer the first single-molecule fluorescence investigations of the ribosome, the universally-conserved RNA-based molecular machine responsible for protein synthesis in all living cells.
-                            </p>
-
-                            <p>
-                              Ruben joined the <a href="http://www.columbia.edu/cu/chemistry/" target="_blank">Department of Chemistry</a> at <a href="http://www.columbia.edu/" target="_blank">Columbia University</a> as an Assistant Professor in 2006. Research in his laboratory focuses on the biophysical chemistry and biochemistry of Nature's RNA-based molecular machines, with a current emphasis on the mechanism and regulation of protein synthesis by the ribosome. Research in Ruben's laboratory has been recognized with numerous awards, including a <a href="http://www.bwfund.org/" target="_blank">Burroughs Wellcome Fund </a> <a href="http://www.bwfund.org/grant-programs/biomedical-sciences/previous-programs/career-awards-biomedical-sciences" target="_blank">Career Award in the Biomedical Sciences</a>, a <a href="http://www.nsf.gov/" target="_blank">National Science Foundation</a> <a href="http://www.nsf.gov/funding/pgm_summ.jsp?pims_id=503214" target="_blank">CAREER Award</a>, an <a href="http://www.cancer.org/index" target="_blank">American Cancer Society</a> <a href="http://www.cancer.org/docroot/RES/content/RES_5_2x_Research_Scholar_Grants_for_Beginning_Investigators.asp?sitearea=RES" target="_blank">Research Scholar Award</a>, a Columbia University RISE Award, a <a href="http://www.columbia.edu/cu/vpas/about/recognition.html#4" target="_blank">Distinguished Columbia Faculty Award</a> and, most recently, a <a href="http://www.dreyfus.org/awards/camille_dreyfus_teacher_award.shtml" target="_blank">Camille Dreyfus Teacher-Scholar Award</a>.
-                            </p>
-                          </div>
-                          <div class="modal-footer">
-                          </div>
-                        </div><!-- /.modal-content -->
-                      </div><!-- /.modal-dialog -->
-                    </div><!-- /.modal -->
-                  </div>
-                </li>
-              </ul>
-            </div>
-
-            <span class="anchor" id="postdoc"></span>
-            <div class="people-category">
-             <h3> Postdoctoral Research Scientist </h3>
-              <ul class="list-unstyled">
-                <li>
-                  <div class="lab-member">
-                    <img class="lab-member" src="img/docs/Jinrang.jpg"/>
-                    <br class="hidden-xs"/>
-                    <address>
-                      <strong>Dr. Kim Jinrang<br/><br/>
-                        <em>Ph.D. Biological Sciences<br/>
-                          Columbia University</em><br/>
-                     </strong>
-                      Email: <a href="mailto:jk2560@columbia.edu">jk2560@columbia.edu</a><br>
-                      Phone: 1.212.854.0162<br/>
-                    </address>
-                  </div>
-                </li>
-
-                <li>
-                  <div class="lab-member">
-                    <img class="lab-member" src="img/docs/Kelvin.jpg"/>
-                    <br class="hidden-xs"/>
-                    <address>
-                      <strong>Dr. Kelvin Caban<br/><br/>
-                      <em>Ph.D. Molecular Genetics<br/>
-                      UMDNJ-Robert Wood Johnson Med. School<br/>
-                      </em></strong>
-                      Email: <a href="mailto:kc2703@columbia.edu ">kc2703@columbia.edu </a><br>
-                      Phone: 1.212.854.0162<br/>
-                    </address>
-                  </div>
-                </li>
-
-                <li>
-                  <div class="lab-member">
-                    <img class="lab-member" src="img/docs/Dan.jpg"/>
-                    <br class="hidden-xs"/>
-                    <address>
-                      <strong>Dr. Daniel MacDougall<br/><br/>
-                      <em>Ph.D. Chemistry<br/>
-                      Columbia University<br/>
-                      </em></strong>
-                      Email: <a href="mailto:ddm2112@columbia.edu">ddm2112@columbia.edu</a><br>
-                      Phone: 1.212.854.0162<br/>
-                    </address>
-                  </div>
-                </li>
-
-                <li>
-                  <div class="lab-member">
-                    <img class="lab-member" src="img/docs/Som.jpg"/>
-                    <br class="hidden-xs"/>
-                    <address>
-                      <strong>Dr. Somdeb Mitra<br/><br/>
-                      <em>Ph.D. Biochemistry<br/>
-                      Albert Einstein College of Medicine<br/>
-                      </em></strong>
-                      Email: <a href="mailto:sm3398@columbia.edu">sm3398@columbia.edu</a><br>
-                      Phone: 1.212.854.0162<br/>
-                    </address>
-                  </div>
-                </li>
-
-              </ul>
-
-              <p> </p>
-            </div>
-
-            <span class="anchor" id="grad"></span>
-            <div class="people-category">
-              <h3> Graduate Students </h3>
-              <ul class="list-unstyled">
-               <li>
-                  <div class="lab-member">
-                    <img class="lab-member" src="img/grads/David.jpg"/>
-                    <br class="hidden-xs"/>
-                    <address>
-                      <strong>David Horstman<br/><br/>
-                      <em>Department of Chemistry
-                      </em></strong><br/>
-                      Email: <a href="mailto:ddh2127@columbia.edu">ddh2127@columbia.edu</a><br>
-                      Phone: 1.212.854.0162<br/>
-                    </address>
-                  </div>
-                </li>
-
-                <li>
-                  <div class="lab-member">
-                    <img class="lab-member" src="img/grads/Nevette.jpg"/>
-                    <br class="hidden-xs"/>
-                    <address>
-                      <strong>Nevette Bailey<br/><br/>
-                      <em>Department of Chemistry
-                      </em></strong><br/>
-                      Email: <a href="mailto:nab2153@columbia.edu">nab2153@columbia.edu</a><br>
-                      Phone: 1.212.854.0162<br/>
-                    </address>
-                  </div>
-                </li>
-
-                <li>
-                  <div class="lab-member">
-                    <img class="lab-member" src="img/placeholder2.jpg"/>
-                    <br class="hidden-xs"/>
-                    <address>
-                      <strong>Jason Hon<br/><br/>
-                      <em>Department of Chemistry
-                      </em></strong><br/>
-                      Email: <a href="mailto:jhon0882@gmail.com">jhon0882@gmail.com</a><br>
-                      Phone: 1.212.854.0162<br/>
-                    </address>
-                  </div>
-                </li>
-
-                <li>
-                  <div class="lab-member">
-                    <img class="lab-member" src="img/grads/Nathan.jpg"/>
-                    <br class="hidden-xs"/>
-                    <address>
-                      <strong>Nathan Daly<br/><br/>
-                      <em>Department of Chemistry
-                      </em></strong><br/>
-                      Email: <a href="mailto:nsd2122@columbia.edu">nsd2122@columbia.edu</a><br>
-                      Phone: 1.212.854.0162<br/>
-                    </address>
-                  </div>
-                </li>
-
-                <li>
-                  <div class="lab-member">
-                    <img class="lab-member" src="img/placeholder1.jpg"/>
-                    <br class="hidden-xs"/>
-                    <address>
-                      <strong>Bridget Huang<br/><br/>
-                      <em>Biohemistry and Molecular Biophysics
-                      </em></strong><br/>
-                      Email: <a href="mailto:byh2107@columbia.edu">byh2107@columbia.edu</a><br>
-                      Phone: 1.212.854.0162<br/>
-                    </address>
-                  </div>
-                </li>
-
-                <li>
-                  <div class="lab-member">
-                    <img class="lab-member" src="img/placeholder2.jpg"/>
-                    <br class="hidden-xs"/>
-                    <address>
-                      <strong>Colin Kinz-Thompson<br/><br/>
-                      <em>Department of Chemistry
-                      </em></strong><br/>
-                      Email: <a href="mailto:cdk2119@columbia.edu">cdk2119@columbia.edu</a><br>
-                      Phone: 1.212.854.0162<br/>
-                    </address>
-                  </div>
-                </li>
-
-                <li>
-                  <div class="lab-member">
-                    <img class="lab-member" src="img/grads/Bo.jpg"/>
-                    <br class="hidden-xs"/>
-                    <address>
-                      <strong>Bo Chen<br/>
-                      </strong><em>(Joint with Prof. Joachim Frank)<br/><br/>
-                      <strong>Department of Biological Sciences
-                      </em></strong><br/>
-                      Email: <a href="mailto:bc2357@columbia.edu ">bc2357@columbia.edu </a><br>
-                      Phone: 1.212.854.0162<br/>
-                    </address>
-                  </div>
-                </li>
-
-                <li>
-                  <div class="lab-member">
-                    <img class="lab-member" src="img/placeholder1.jpg"/>
-                    <br class="hidden-xs"/>
-                    <address>
-                      <strong>Rachel Fleisher<br/><br/>
-                      <em>Department of Chemistry
-                      </em></strong><br/>
-                      Email: <a href="mailto:rcf2101@columbia.edu">rcf2101@columbia.edu</a><br>
-                      Phone: 1.212.854.0162<br/>
-                    </address>
-                  </div>
-                </li>
-
-                <li>
-                  <div class="lab-member">
-                    <img class="lab-member" src="img/grads/Wei.jpg"/>
-                    <br class="hidden-xs"/>
-                    <address>
-                      <strong>Wei Ning<br/><br/>
-                      <em>Department of Chemistry
-                      </em></strong><br/>
-                      Email: <a href="mailto:wn2126@columbia.edu ">wn2126@columbia.edu </a><br>
-                      Phone: 1.212.854.0162<br/>
-                    </address>
-                  </div>
-                </li>
-
-              </ul>
-            </div>
-
-            <span class="anchor" id="undergrad"></span>
-            <div class="people-category">
-              <h3> Undergraduate Students </h3>
-              <ul class="list-unstyled">
-                <li>
-                  <div class="lab-member">
-                    <img class="lab-member" src="img/ugrads/Jordan.jpg"/>
-                    
-                    <address>
-                      <strong>Jordan McKittrick<br/><br/>
-                      <em>Biochemistry
-                      </em></strong><br/>
-                      Email: <a href="mailto:jhm2144@columbia.edu">jhm2144@columbia.edu </a><br>
-                      Phone: 1.212.854.0162<br/>
-                    </address>
-                  </div>
-                </li>
-
-              </ul>
-            </div>
-
-
-            <span class="anchor" id="alumni"></span>
-            <div class="people-category">
-              <h2>Gonzalez Laboratory Alumni</h2>
-
-              <table class="table">
-                <thead>
-                  <tr>
-                    <th>Position</th>
-                    <th>Name</th>
-                    <th>Dates in Group</th>
-                    <th>Contact Info</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <td>
-                      <strong>Postdoctoral Researchers</strong>
-                    </td>
-                    <td>
-                      Dileep Pulukkunat
-                    </td>
-                    <td>
-                    </td>
-                    <td>
-                    </td>
-                  </tr>
-                <tr>
-                    <td></td>
-                    <td>
-                      Jan-Willem van de Meent
-                    </td>
-                    <td>
-                    </td>
-                    <td>
-                    </td>
-                  </tr>
-                </tbody>
-                <tbody>
-                  <tr>
-                    <td><strong>Graduate Students</strong></td>
-                    <td>
-                      Margaret Elvekrog<br/>
-                    </td>
-                    <td>2007-2011</td>
-                    <td>
-                      <a href="mailto:melvekrog@gmail.com">melvekrog@gmail.com </a>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td></td>
-                    <td>
-                      Michael Englander<br/>
-                    </td>
-                    <td>
-                      2006-2011
-                    </td>
-                    <td>
-                      <a href="mailto:mte2002@columbia.edu">mte2002@columbia.edu</a>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td></td>
-                    <td>
-                      Jingyi Fei
-                    </td>
-                    <td>
-                      2006-2010
-                    </td>
-                    <td>
-                      <a href="mailto:jingyi.jf2276@gmail.com">jingyi.jf2276@gmail.com</a>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td></td>
-                    <td>
-                      Victor Naumov
-                    </td>
-                    <td>
-                      
-                    </td>
-                    <td>
-                      <a href="mailto:mutantgene@gmail.com">mutantgene@gmail.com</a>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td></td>
-                    <td>
-                      Jiangning Wang
-                    </td>
-                    <td>
-                      2006-2010
-                    </td>
-                    <td>
-                      <a href="mailto:jiangning.wang@gmail.com">jiangning.wang@gmail.com</a>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td></td>
-                    <td>
-                      Jonathan Bronson
-                    </td>
-                    <td>
-                      2007-2010
-                    </td>
-                    <td>
-                      <a href="mailto:jonathan.bronson@gmail.com">jonathan.bronson@gmail.com</a>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td></td>
-                    <td>
-                      Phillip Effraim
-                    </td>
-                    <td>
-                      2006-2009
-                    </td>
-                    <td>
-                      
-                    </td>
-                  </tr>  
-                  </tbody>
-                  <tbody>             
-                  <tr>
-                    <td><strong>Undergraduate Students</strong></td>
-                    <td>
-                      Mia Kunitomo
-                    </td>
-                    <td>
-                      Summer 2013
-                    </td>
-                    <td>
-              
-                    </td>
-                  </tr>
-                  <tr>
-                    <td></td>
-                    <td>
-                      Vincent Nguyen
-                    </td>
-                    <td>
-                      Fall 2011
-                    </td>
-                    <td>
-                      
-                    </td>
-                  </tr>    
-                  <tr>
-                    <td></td>
-                    <td>
-                      Margaret Bermel
-                    </td>
-                    <td>
-                      Summer 2011
-                    </td>
-                    <td>
-                      
-                    </td>
-                  </tr>    
-                  <tr>
-                    <td></td>
-                    <td>
-                      Madeleine Jensen
-                    </td>
-                    <td>
-                      Summer 2011
-                    </td>
-                    <td>
-                      
-                    </td>
-                  </tr>    
-                  <tr>
-                    <td></td>
-                    <td>
-                      Esther Wolf
-                    </td>
-                    <td>
-                      2009-2011
-                    </td>
-                    <td>
-                      
-                    </td>
-                  </tr>    
-                  <tr>
-                    <td></td>
-                    <td>
-                      Arianne Richard
-                    </td>
-                    <td>
-                      2009-2010
-                    </td>
-                    <td>
-                      
-                    </td>
-                  </tr>    
-                  <tr>
-                    <td></td>
-                    <td>
-                      Noam Prywes
-                    </td>
-                    <td>
-                      2007-2010
-                    </td>
-                    <td>
-                      
-                    </td>
-                  </tr>    
-                  <tr>
-                    <td></td>
-                    <td>
-                      Anthony Testa
-                    </td>
-                    <td>
-                      2009
-                    </td>
-                    <td>
-                      
-                    </td>
-                  </tr>    
-                  <tr>
-                    <td></td>
-                    <td>
-                      Joseph Ho
-                    </td>
-                    <td>
-                      2007-2009
-                    </td>
-                    <td>
-                      
-                    </td>
-                  </tr>    
-                  <tr>
-                    <td></td>
-                    <td>
-                      Rathi Srinivas
-                    </td>
-                    <td>
-                      2006-2009
-                    </td>
-                    <td>
-                      
-                    </td>
-                  </tr>    
-                  <tr>
-                    <td></td>
-                    <td>
-                      Samuel Sternberg
-                    </td>
-                    <td>
-                      2006-2009
-                    </td>
-                    <td>
-                      
-                    </td>
-                  </tr>    
-                  <tr>
-                    <td></td>
-                    <td>
-                      Ann Cheung
-                    </td>
-                    <td>
-                      2006-2007
-                    </td>
-                    <td>
-                      
-                    </td>
-                  </tr>    
-                </tbody>
-                <tbody>
-                  <tr>
-                    <td><strong>Rotation Students</strong></td>
-                    <td>
-                      Noopur Khobrekar
-                    </td>
-                    <td>
-                      Fall 2013
-                    </td>
-                    <td>
-                      <a href="mailto:nvk2104@columbia.edu">nvk2104@columbia.edu</a>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td></td>
-                    <td>
-                      Nathaniel Jaffe
-                    </td>
-                    <td>
-                      Fall 2013
-                    </td>
-                    <td>
-                      <a href="mailto:nmj2112@columbia.edu">nmj2112@columbia.edu</a>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td></td>
-                    <td>
-                      Meagan Dufrisne
-                    </td>
-                    <td>
-                      Summer 2013
-                    </td>
-                    <td>
-                      <a href="mailto:mlb2223@columbia.edu">mlb2223@columbia.edu</a>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td></td>
-                    <td>
-                      Claudia Tenen
-                    </td>
-                    <td>
-                      Summer 2013
-                    </td>
-                    <td>
-                      <a href="mailto:cct2128@columbia.edu">cct2128@columbia.edu</a>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td></td>
-                    <td>
-                      Bridget Huang
-                    </td>
-                    <td>
-                      Spring 2011
-                    </td>
-                    <td>
-                      <a href="mailto:byh2107@columbia.edu">byh2107@columbia.edu</a>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td></td>
-                    <td>
-                      Scott Ugras
-                    </td>
-                    <td>
-                      Summer 2010
-                    </td>
-                    <td>
-                      <a href="mailto:ugras@mail.med.penn.edu ">ugras@mail.med.penn.edu </a>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td></td>
-                    <td>
-                      Rachel Kolster
-                    </td>
-                    <td>
-                      Spring 2009
-                    </td>
-                    <td>
-                      <a href="mailto:rak128@columbia.edu">rak128@columbia.edu</a>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td></td>
-                    <td>
-                      Kelly McGrath
-                    </td>
-                    <td>
-                      Summer 2008
-                    </td>
-                    <td>
-                      <a href="mailto:kam2203@columbia.edu">kam2203@columbia.edu</a>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td></td>
-                    <td>Daphne Anastasiades</td>
-                    <td>
-                      Spring 2007
-                    </td>
-                    <td>
-                      <a href="mailto:dca2106@columbia.edu">dca2106@columbia.edu</a>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td></td>
-                    <td>
-                      Rohitha SriRamaratnam
-                    </td>
-                    <td>
-                      Spring 2007
-                    </td>
-                    <td>
-                      <a href="mailto:rs2373@columbia.edu">rs2373@columbia.edu</a>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td></td>
-                    <td>
-                      Pallav Kosuri
-                    </td>
-                    <td>
-                      Spring 2007
-                    </td>
-                    <td>
-                      <a href="mailto:pk2232@columbia.edu">pk2232@columbia.edu</a>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td></td>
-                    <td>
-                      Michael Englander
-                    </td>
-                    <td>
-                      Summer 2006
-                    </td>
-                    <td>
-                      <a href="mailto:mte2002@columbia.edu">mte2002@columbia.edu</a>
-                    </td>
-                  </tr>
-                </tbody>
-                <tbody>
-                  <tr>
-                    <td><strong>High School Students<strong></td>
-                    <td>Merilyn Varghese</td>
-                    <td>2006-2007</td>
-                    <td><a href="mailto:merilyn.varghese@gmail.com">merilyn.varghese@gmail.com</a></td>
-                  </tr>
-                </tbody>
-                <tbody>
-                  <tr>
-                    <td><strong>Lab Technicians</strong></td>
-                    <td>
-                      Amanda Olivo
-                    </td>
-                    <td>
-                     
-                    </td>
-                    <td>
-                      <a href="mailto:ako2012@gmail.com">ako2012@gmail.com</a>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td></td>
-                    <td>
-                      Corey Perez
-                    </td>
-                    <td>
-                      
-                    </td>
-                    <td>
-                      
-                    </td>
-                  </tr>
-                  <tr>
-                    <td></td>
-                    <td>
-                      Wendy Tse
-                    </td>
-                    <td>
-                      2009
-                    </td>
-                    <td>
-                      <a href="mailto:wendy.y.tse@gmail.com">wendy.y.tse@gmail.com</a>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td></td>
-                    <td>
-                      Subahsree Das
-                    </td>
-                    <td>
-                      2007-2009
-                    </td>
-                    <td>
-                      <a href="mailto:mail_subhasree@yahoo.com">mail_subhasree@yahoo.com</a>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td></td>
-                    <td>
-                      Benjamin Cahan
-                    </td>
-                    <td>
-                      2006-2007
-                    </td>
-                    <td>
-                      <a href="mailto:bcahan@ucla.edu">bcahan@ucla.edu</a>
-                    </td>
-                  </tr>
-                </tbody>
-              </table>
-
-            </div>
-          </div>
         </div>
-      </div>
-    </div>
 
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="http://getbootstrap.com/dist/js/bootstrap.js"></script>
-    <script type="text/javascript" src="js/smoothscroll.js"></script>
-  </body>
+        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+        <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+        <!-- Include all compiled plugins (below), or include individual files as needed -->
+        <script src="js/bootstrap.js"></script>
+        <script type="text/javascript" src="js/smoothscroll.js"></script>
+    </body>
 </html>
