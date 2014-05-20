@@ -59,6 +59,7 @@ As long as you've set everything up correctly, you can exit CUNIX, and you shoul
 Once you're out of CUNIX and back in your local git repository, set up the remote target with the following command:
 
 	git remote add web <your_uni>@cunix.columbia.edu:~/gonzalez-deploy.git
+	git push web +master:refs/heads/master
 	
 Now you should be all set! You'll be able to make changes to the site following the rest of the guides in this README. Just make sure that you ***ALWAYS*** test your changes locally before pushing them to the web.
 
@@ -79,17 +80,11 @@ Once your changes are committed, you should first push to Github. This is import
 	
 ***It's very important that this step succeeds before you push to the web.*** If this step did not succeed, make sure you fix the problem before proceeding with pushing to the web. The most common reasons for this to fail are incorrect Github username/password or your local repository not being up to date with all of the changes in the Github repository. 
 
-Once you've fixed any issues and you're absolutely certain that your changes have been pushed to the Github repository (I would double check to be sure), you're ready to push changes to the web.
-
-If it's the first time you're doing this, execute the following command, which might take a while:
-
-	git push web +master:refs/heads/master
-	
-Otherwise, you can just execute
+Once you've fixed any issues and you're absolutely certain that your changes have been pushed to the Github repository (I would double check to be sure), you're ready to push changes to the web. Use the following command, which will push your changes to the remote git repository on CUNIX, which will trigger the post-receive hook you set up to automatically update the live webserver:
 	
 	git push web
 	
-Both commands will prompt you for your UNI password
+This will prompt you for your UNI password
 	
 If this succeeds, it means your changes were successfully pushed to CUNIX and the webserver.
 
