@@ -58,7 +58,7 @@ As long as you've set everything up correctly, you can exit CUNIX, and you shoul
 
 Once you're out of CUNIX and back in your local git repository, set up the remote target with the following command:
 
-	git remote add web username@yourserver:~/deploy.git
+	git remote add web <your_uni>@cunix.columbia.edu:~/gonzalez-deploy.git
 	
 Now you should be all set! You'll be able to make changes to the site following the rest of the guides in this README. Just make sure that you ***ALWAYS*** test your changes locally before pushing them to the web.
 
