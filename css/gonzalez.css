@@ -46,9 +46,7 @@ img.hm-no-resize {
 .sponsor {
 	max-width: 100px;
 	max-height: 100px;
-    vertical-align: center;
-    margin-right: auto;
-    margin-left: auto;
+    margin: auto;
 }
 
 .sponsor-grid {
