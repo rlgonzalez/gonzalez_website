@@ -1,0 +1,179 @@
+body {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+h1 {
+  padding-top: 20px;
+}
+
+p {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+img.hm-no-resize {
+  max-height: 115px;
+
+  max-width: 218px;
+}
+
+.clear {
+  clear: both;
+}
+
+.img-software {
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.image-caption {
+  padding-top: 15px;
+}
+
+.image-title {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+.page-content {
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.sponsor {
+	max-width: 100px;
+	max-height: 100px;
+    margin: auto;
+}
+
+.sponsor-grid {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  vertical-align: center
+}
+.sponsor-grid [class*="col"] {
+  text-align: center;
+  min-height: 100px;
+  line-height: 100px;
+}
+
+.vertical-center {
+  vertical-align: center;
+}
+
+div.lab-member {
+  clear: both;
+  padding: 10px 0px;
+}
+
+div.people-category {
+  clear: both;
+  padding-bottom: 15px;
+}
+
+.member-sidebar {
+  text-shadow: 0 1px 0 #fff;
+  background-color: #f7f5fa;
+  border-radius: 5px;
+
+}
+
+.member-sidebar a {
+  color: #444;
+}
+
+.member-sidebar.affix {
+  position: static;
+}
+
+@media (min-width: 992px) {
+  .member-sidebar.affix {
+  position: fixed;
+  }
+}
+
+.anchor {
+  display: block;
+  height: 51px;
+  margin-top: -51px;
+  visibility: hidden;
+}
+
+
+
+img.lab-member {
+  width: 150px;
+  height: auto;
+  float:left;
+  padding-right: 20px;
+}
+
+img.pub-thumbnail {
+  height: 122px;
+  float: left;
+  padding-right: 10px;
+}
+
+ul.publication-list li {
+  margin-top: 20px;
+  margin-bottom: 20px;
+
+}
+
+ul.subitem li{
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.research-toc {
+  display: block;
+  width: 200px;
+  height: auto;
+  float: left;
+  padding: 20px;
+
+
+}
+
+img.research-image {
+  float: right;
+}
+
+@media screen and (max-width: 430px) {
+  img.lab-member {
+    float: none;
+    display: block;
+    padding-bottom: 10px;
+    /*margin-left: auto;
+    margin-right: auto;*/
+
+  }
+}
+
+@media screen and (max-width: 992px) {
+  body {
+    padding-top: 85px;
+  }
+
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    padding-top: 20px;
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+
+  .page-content {
+    padding: 10px;
+    padding-top: 20px;
+  }
+
+  .sponsor {
+    padding: 10px;
+  }
+
+}
