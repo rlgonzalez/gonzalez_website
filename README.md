@@ -5,6 +5,10 @@ This repository contains all of the HTML, CSS, and Javascript code for the Gonza
 Due to CUNIX space constraints, the pdfs are NOT included, and any PDFs that you'd like to add to the website must be uploaded manually via SFTP software like Cyberduck or WinSCP.
 
 This README will go over how to make changes to and deploy to the site.
+## Ownership of this repository has been transferred. The environment should be same, just change the origin link to this new link.
+```
+git remote set-url origin https://github.com/rlgonzalez/gonzalez_website.git
+```
 
 ## Setting up your system 
 
