@@ -75,6 +75,7 @@ div.people-category {
 }
 
 .member-sidebar {
+  top: 180px;
   text-shadow: 0 1px 0 #fff;
   background-color: #f7f5fa;
   border-radius: 5px;
@@ -191,3 +192,11 @@ html {
   display:none;
 }
 
+
+@media only screen and (max-width: 480px) {
+  /* horizontal scrollbar for tables if mobile screen */
+  .table {
+      overflow-x: auto;
+      display: block;
+  }
+}
