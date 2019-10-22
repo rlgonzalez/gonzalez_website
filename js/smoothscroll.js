@@ -1,4 +1,10 @@
 /**
+ * Currently Not being used because it is not working for all the side bars, will delete later
+ */
+
+
+
+/**
  * SmoothScroll
  * This helper script created by DWUser.com.  Copyright 2012 DWUser.com.  
  * Dual-licensed under the GPL and MIT licenses.  
